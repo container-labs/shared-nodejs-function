@@ -41,48 +41,6 @@ Object.defineProperty(exports, "updateWrapper", {
     return _graphql.updateWrapper;
   }
 });
-Object.defineProperty(exports, "authenticated", {
-  enumerable: true,
-  get: function get() {
-    return _hocs.authenticated;
-  }
-});
-Object.defineProperty(exports, "checkPermission", {
-  enumerable: true,
-  get: function get() {
-    return _hocs.checkPermission;
-  }
-});
-Object.defineProperty(exports, "requireAdmin", {
-  enumerable: true,
-  get: function get() {
-    return _hocs.requireAdmin;
-  }
-});
-Object.defineProperty(exports, "queryLoader", {
-  enumerable: true,
-  get: function get() {
-    return _hocs.queryLoader;
-  }
-});
-Object.defineProperty(exports, "refetchOnMount", {
-  enumerable: true,
-  get: function get() {
-    return _hocs.refetchOnMount;
-  }
-});
-Object.defineProperty(exports, "waitingOnData", {
-  enumerable: true,
-  get: function get() {
-    return _hocs.waitingOnData;
-  }
-});
-Object.defineProperty(exports, "BrowserLogger", {
-  enumerable: true,
-  get: function get() {
-    return _utils.BrowserLogger;
-  }
-});
 Object.defineProperty(exports, "Logger", {
   enumerable: true,
   get: function get() {
@@ -92,8 +50,6 @@ Object.defineProperty(exports, "Logger", {
 exports["default"] = void 0;
 
 var _graphql = _interopRequireWildcard(require("./graphql"));
-
-var _hocs = require("./hocs");
 
 var _utils = require("./utils");
 

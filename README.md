@@ -1,1 +1,1 @@
-# shared-nodejs-function
+# react-apollo-shared

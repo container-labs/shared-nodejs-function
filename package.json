@@ -70,7 +70,7 @@
     "@babel/preset-flow": "^7.0.0",
     "@babel/register": "^7.8.0",
     "@containerlabs/funpack": "^1.6.0",
-    "babel-plugin-add-module-exports": "1.0.0",
+    "babel-plugin-add-module-exports": "1.0.4",
     "babel-plugin-check-es2015-constants": "7.0.0-beta.3",
     "babel-plugin-transform-imports": "^2.0.0",
     "babel-plugin-transform-inline-environment-variables": "^0.4.3"

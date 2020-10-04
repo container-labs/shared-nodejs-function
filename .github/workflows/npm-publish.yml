@@ -15,7 +15,8 @@ jobs:
       - run: npm install
       # auto-bump to a new minor version
       # - run: yarn version --minor --no-git-tag-version
-      - run: npm run deploy-npm
+      - run: npm run ppare-deploy-npm
+      - run: npm deploy
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
           # GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

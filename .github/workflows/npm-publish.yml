@@ -13,7 +13,10 @@ jobs:
           node-version: 12
           registry-url: 'https://registry.npmjs.org'
           # scope: '@containerlabs'
-          always-auth: true
+          # always-auth: true
+      # shouldn't have to do this...
+      - run: git config --global user.name 'Sr Bot'
+      - run: git config --global user.email 'bot@containerlabs.io'
       - run: npm install
       # auto-bump to a new minor version
       # - run: yarn version --minor --no-git-tag-version

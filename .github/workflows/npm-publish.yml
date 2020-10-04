@@ -27,6 +27,6 @@ jobs:
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-      - run: git commit -am "Bumping minor version"
+      # - run: git commit -am "Bumping minor version"
       - run: git push
           # GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -54,12 +54,10 @@ module.exports = function (api) {
     '@babel/transform-block-scoped-functions',
     '@babel/transform-block-scoping',
     '@babel/transform-computed-properties',
-    '@babel/transform-function-name',
     '@babel/transform-literals',
     '@babel/transform-modules-commonjs',
     '@babel/transform-parameters',
     '@babel/transform-shorthand-properties',
-    '@babel/transform-template-literals',
     '@babel/transform-typeof-symbol',
     '@babel/transform-regenerator',
     ['@babel/transform-classes', {

@@ -4,12 +4,7 @@ module.exports = function (api) {
     [
       '@babel/preset-env',
       {
-        // "debug": true,
         "useBuiltIns": "usage",
-        // "targets": {
-        //   "ie": "11",
-        //   "chrome": "latest"
-        // }
         corejs: { version: 3, proposals: true }
       },
     ],
@@ -28,7 +23,6 @@ module.exports = function (api) {
         'loose': false,
       },
     ],
-    '@babel/proposal-export-namespace-from',
     '@babel/syntax-dynamic-import',
     [
       '@babel/transform-destructuring',
@@ -45,12 +39,9 @@ module.exports = function (api) {
     '@babel/transform-flow-strip-types',
     '@babel/transform-arrow-functions',
     '@babel/transform-computed-properties',
-    '@babel/transform-literals',
-    '@babel/transform-modules-commonjs',
-    '@babel/transform-parameters',
+    // see if it works without
+    // '@babel/transform-modules-commonjs',
     '@babel/transform-shorthand-properties',
-    '@babel/transform-typeof-symbol',
-    '@babel/transform-regenerator',
     ['@babel/transform-classes', {
       'loose': true,
     }],

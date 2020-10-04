@@ -7,11 +7,11 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
-      - uses: actions/setup-node@v1
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2-beta
         with:
-          node-version: 14
-          # always-auth: true
+          node-version: 12
+          always-auth: true
       - run: npm install
       # auto-bump to a new minor version
       # - run: yarn version --minor --no-git-tag-version

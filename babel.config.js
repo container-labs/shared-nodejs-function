@@ -11,24 +11,12 @@ module.exports = function (api) {
     '@babel/preset-flow',
   ];
   const plugins = [
-    [
-      '@babel/proposal-decorators',
-      {
-        'legacy': true
-      }
-    ],
-    [
-      '@babel/transform-destructuring',
-      {
-        'loose': true,
-      },
-    ],
-    [
-      '@babel/transform-spread',
-      {
-        'loose': true,
-      },
-    ],
+    // [
+    //   '@babel/transform-destructuring',
+    //   {
+    //     'loose': true,
+    //   },
+    // ],
     '@babel/transform-flow-strip-types',
     '@babel/transform-arrow-functions',
     '@babel/transform-computed-properties',

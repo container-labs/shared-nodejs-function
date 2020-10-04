@@ -11,21 +11,16 @@ module.exports = function (api) {
     '@babel/preset-flow',
   ];
   const plugins = [
-    // [
-    //   '@babel/transform-destructuring',
-    //   {
-    //     'loose': true,
-    //   },
-    // ],
-    '@babel/transform-flow-strip-types',
+    // when is this in node
     '@babel/transform-arrow-functions',
-    '@babel/transform-computed-properties',
-    // see if it works without
-    // '@babel/transform-modules-commonjs',
+    // when is this in node
     '@babel/transform-shorthand-properties',
-    ['@babel/transform-classes', {
-      'loose': true,
-    }],
+    // if we do this, however this is packed is how it behaves
+    // it doesn't respect dev/test downstream
+    // if we set it downstream, we'll still want it transpiled
+    // and I don't think we transpile node modules
+    // TL;DR, include for now, check api transpiled code, remove if okay
+    'transform-inline-environment-variables',
   ];
 
   api.cache(false);

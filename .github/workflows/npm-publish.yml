@@ -19,7 +19,7 @@ jobs:
       # - run: yarn version --minor --no-git-tag-version
       - run: npm version minor
         env:
-          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - run: npm run ppare-deploy-npm
       - run: npm publish
         env:

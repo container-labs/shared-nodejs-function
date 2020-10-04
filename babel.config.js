@@ -19,12 +19,8 @@ module.exports = function (api) {
     [
       '@babel/proposal-decorators',
       {
-        // 'decoratorsBeforeExport': true,
         'legacy': true
       }
-      // {
-      //   'legacy': true,
-      // },
     ],
     [
       '@babel/proposal-class-properties',
@@ -34,9 +30,6 @@ module.exports = function (api) {
     ],
     '@babel/proposal-export-namespace-from',
     '@babel/syntax-dynamic-import',
-
-    '@babel/proposal-json-strings',
-
     [
       '@babel/transform-destructuring',
       {
@@ -51,8 +44,6 @@ module.exports = function (api) {
     ],
     '@babel/transform-flow-strip-types',
     '@babel/transform-arrow-functions',
-    '@babel/transform-block-scoped-functions',
-    '@babel/transform-block-scoping',
     '@babel/transform-computed-properties',
     '@babel/transform-literals',
     '@babel/transform-modules-commonjs',

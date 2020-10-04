@@ -18,13 +18,6 @@ module.exports = function (api) {
       }
     ],
     [
-      '@babel/proposal-class-properties',
-      {
-        'loose': false,
-      },
-    ],
-    '@babel/syntax-dynamic-import',
-    [
       '@babel/transform-destructuring',
       {
         'loose': true,

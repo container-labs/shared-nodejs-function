@@ -947,14 +947,13 @@
     lodash "^4.17.19"
     to-fast-properties "^2.0.0"
 
-"@containerlabs/funpack@^1.8.0":
-  version "1.8.0"
-  resolved "https://registry.yarnpkg.com/@containerlabs/funpack/-/funpack-1.8.0.tgz#8d97843266facdbae69a89ccb15c14021cd88bfb"
-  integrity sha512-7Qm/dz78RjILZLOKPceR9uKUn5U3NP02mr9pADJHazB3FTjM/FaBvsEN8sOZ8MfL1GxlVdVf8PLL1qhA5JdEXg==
+"@containerlabs/funpack@^1.10.0":
+  version "1.12.0"
+  resolved "https://registry.yarnpkg.com/@containerlabs/funpack/-/funpack-1.12.0.tgz#df18769c5959cd9601707e21d49782da0cda281c"
+  integrity sha512-ovvKJEkXkN3OQ/4I3g3mi7ffKRNT+jh8gfhaq31vJzTU8U4xGoYUXRPsCcyekO7eum4ovPPqv2qW1QbUSjfBIQ==
   dependencies:
     "@babel/cli" "^7.11.6"
-    "@babel/runtime" "^7.11.2"
-    core-js "^3.6.5"
+    "@babel/core" "^7.11.6"
     rimraf "^3.0.2"
 
 "@firebase/app-types@0.6.1", "@firebase/app-types@^0.6.1":
@@ -1548,7 +1547,7 @@ core-js-compat@^3.6.2:
     browserslist "^4.8.5"
     semver "7.0.0"
 
-core-js@^3.2.1, core-js@^3.6.5:
+core-js@^3.2.1:
   version "3.6.5"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.6.5.tgz#7395dc273af37fb2e50e9bd3d9fe841285231d1a"
   integrity sha512-vZVEEwZoIsI+vPEuoF9Iqf5H7/M3eeQqWlQnYa8FSKKePuYTf5MWnxb5SDAzCa60b3JBRS5g9b+Dq7b1y/RCrA==

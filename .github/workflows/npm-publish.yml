@@ -9,6 +9,8 @@ jobs:
         with:
           node-version: 14
       - run: yarn install
+      # auto-bump to a new minor version
+      - run: yarn version --minor
       - run: yarn run deploy
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

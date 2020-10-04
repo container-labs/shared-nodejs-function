@@ -14,9 +14,8 @@ jobs:
           always-auth: true
       - run: yarn install
       # auto-bump to a new minor version
-      - run: yarn version --minor
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - run: yarn version --minor --no-git-tag-version
       - run: yarn run deploy
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

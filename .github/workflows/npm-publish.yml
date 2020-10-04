@@ -11,11 +11,11 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 14
-          always-auth: true
-      - run: yarn install
+          # always-auth: true
+      - run: npm install
       # auto-bump to a new minor version
-      - run: yarn version --minor --no-git-tag-version
-      - run: yarn run deploy
+      # - run: yarn version --minor --no-git-tag-version
+      - run: npm run deploy-npm
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

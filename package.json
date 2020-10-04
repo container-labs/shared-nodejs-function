@@ -9,7 +9,7 @@
     "package-functions-local": "funpack -e local",
     "ppare-deploy": "yarn run package-functions-production",
     "predeploy": "yarn run ppare-deploy",
-    "deploy": "npm publish"
+    "deploy": "yarn publish"
   },
   "repository": {
     "type": "git",

@@ -868,9 +868,9 @@
     to-fast-properties "^2.0.0"
 
 "@containerlabs/funpack@^1.10.0":
-  version "1.12.0"
-  resolved "https://registry.yarnpkg.com/@containerlabs/funpack/-/funpack-1.12.0.tgz#df18769c5959cd9601707e21d49782da0cda281c"
-  integrity sha512-ovvKJEkXkN3OQ/4I3g3mi7ffKRNT+jh8gfhaq31vJzTU8U4xGoYUXRPsCcyekO7eum4ovPPqv2qW1QbUSjfBIQ==
+  version "1.13.0"
+  resolved "https://registry.yarnpkg.com/@containerlabs/funpack/-/funpack-1.13.0.tgz#14dc1c0824be22c56e19d4fccfdc644ca35c12b7"
+  integrity sha512-cy5cOYCkNb0SolgWRGNBfEoL7Niw0pzfA5sHzwwh71Vz4bIAS2WucSt9HEujubP1B1kAI6Ct4KxFzpGrEShkrg==
   dependencies:
     "@babel/cli" "^7.11.6"
     "@babel/core" "^7.11.6"

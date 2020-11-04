@@ -1,6 +1,6 @@
 {
   "name": "@containerlabs/shared-nodejs-function",
-  "version": "1.29.0",
+  "version": "1.30.0",
   "description": "a shared library for backend node applications",
   "main": "functions/index.js",
   "scripts": {

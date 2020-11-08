@@ -1,10 +1,12 @@
 import FireClass, {
-  createWrapper,
-  deleteWrapper,
-  listWrapper,
   childListWrapper,
+  createWrapper,
   singleWrapper,
+  listWrapper,
+  indexQuery,
+  multiIndexQuery,
   updateWrapper,
+  deleteWrapper,
 } from './graphql'
 
 import {
@@ -14,12 +16,14 @@ import {
 export default FireClass;
 
 export {
-  createWrapper,
-  deleteWrapper,
-  listWrapper,
   childListWrapper,
+  createWrapper,
   singleWrapper,
+  listWrapper,
+  indexQuery,
+  multiIndexQuery,
   updateWrapper,
+  deleteWrapper,
 
   Logger,
 }

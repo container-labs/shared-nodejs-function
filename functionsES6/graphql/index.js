@@ -3,7 +3,7 @@ import {
   // deleteWrapper,
   // listWrapper,
   childListWrapper,
-  singleWrapper,
+  // singleWrapper,
   // updateWrapper,
 } from './server/wrappers';
 

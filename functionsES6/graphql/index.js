@@ -1,21 +1,39 @@
 import {
-  createWrapper,
-  deleteWrapper,
-  listWrapper,
+  // createWrapper,
+  // deleteWrapper,
+  // listWrapper,
   childListWrapper,
   singleWrapper,
+  // updateWrapper,
+} from './server/wrappers';
+
+import {
+  createWrapper,
+  singleWrapper,
+  listWrapper,
+  indexQuery,
+  multiIndexQuery,
   updateWrapper,
-} from './server/wrappers/index';
+  deleteWrapper,
+} from './server/firestore';
 
 import FireClass from './server/firebase';
 
 export default FireClass;
 
 export {
-  createWrapper,
-  deleteWrapper,
-  listWrapper,
+  // createWrapper,
+  // deleteWrapper,
+  // listWrapper,
   childListWrapper,
+  // singleWrapper,
+  // updateWrapper,
+
+  createWrapper,
   singleWrapper,
+  listWrapper,
+  indexQuery,
+  multiIndexQuery,
   updateWrapper,
+  deleteWrapper,
 }

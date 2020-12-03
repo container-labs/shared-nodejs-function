@@ -938,9 +938,9 @@
     teeny-request "^7.0.0"
 
 "@google-cloud/firestore@^4.2.0", "@google-cloud/firestore@^4.5.0":
-  version "4.7.1"
-  resolved "https://registry.yarnpkg.com/@google-cloud/firestore/-/firestore-4.7.1.tgz#d170c72ecda6286ebab460765511103362da7b21"
-  integrity sha512-Qici+WKB6uRdDS1S3CaxGrIaCl4Bck70DYSzA5dZFkTU03Jj5DKXC4PYeUkfCAiB4haj7tzx+2ye7rhLxPclhQ==
+  version "4.7.2"
+  resolved "https://registry.yarnpkg.com/@google-cloud/firestore/-/firestore-4.7.2.tgz#79841384113b20cf19367295b422a748c826767d"
+  integrity sha512-EN1WLX5mUOa3+OyxXEsw+yw0lVvC2JvB3XToBltnba4MhUUkLRK4eJN0nJVA86c6/rhosQwan7mmmE1UV1U1UA==
   dependencies:
     fast-deep-equal "^3.1.1"
     functional-red-black-tree "^1.0.1"

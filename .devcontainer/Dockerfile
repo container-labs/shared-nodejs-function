@@ -1,1 +1,1 @@
-FROM node:12
+FROM gcr.io/containerlabs/nodejs:latest

@@ -1,1 +1,1 @@
-FROM gcr.io/containerlabs/nodejs:latest
+FROM gcr.io/containerlabs/gitpod/nodejs:14

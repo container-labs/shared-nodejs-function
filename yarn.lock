@@ -919,13 +919,14 @@
     teeny-request "^7.0.0"
 
 "@google-cloud/firestore@^4.2.0", "@google-cloud/firestore@^4.5.0":
-  version "4.9.3"
-  resolved "https://registry.yarnpkg.com/@google-cloud/firestore/-/firestore-4.9.3.tgz#f50e6790c85e7025b971d0aa2c9c36da798d559e"
-  integrity sha512-0BFmq04q+pgUq7stxwA4nZj40nURgxhdU4E4UJT73YON/BsJioJiZZAzQCQeueOJRCzqyx5IraoTSAadQME3wQ==
+  version "4.9.4"
+  resolved "https://registry.yarnpkg.com/@google-cloud/firestore/-/firestore-4.9.4.tgz#133d25c0c70d638e4bef3bfdbfb259fd5d0c538e"
+  integrity sha512-qtM00LqQVYWEk6DgFcP0SsNREmbkCdKA2tm5r4WL16X2/CC35egzVrVYTveKszGQ49PL216M4wW4czfW+DMEgg==
   dependencies:
     fast-deep-equal "^3.1.1"
     functional-red-black-tree "^1.0.1"
     google-gax "^2.9.2"
+    protobufjs "^6.8.6"
 
 "@google-cloud/paginator@^3.0.0":
   version "3.0.5"

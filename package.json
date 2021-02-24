@@ -1,6 +1,6 @@
 {
   "name": "@containerlabs/shared-nodejs-function",
-  "version": "2.7.0",
+  "version": "2.8.0",
   "description": "a shared library for backend node applications",
   "main": "functions/index.js",
   "scripts": {
@@ -31,23 +31,23 @@
   "dependencies": {
     "@google-cloud/firestore": "^4.2.0",
     "firebase-admin": "^9.0.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "core-js": "^3.6.5"
   },
   "peerDependencies": {
     "@google-cloud/firestore": "^4.2.0",
     "firebase-admin": "^9.0.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "core-js": "^3.6.5"
   },
   "devDependencies": {
-    "@babel/cli": "^7.12.13",
-    "@babel/core": "^7.12.13",
-    "@babel/plugin-transform-arrow-functions": "^7.12.13",
+    "@babel/cli": "^7.13.0",
+    "@babel/core": "^7.13.1",
+    "@babel/plugin-transform-arrow-functions": "^7.13.0",
     "@babel/plugin-transform-shorthand-properties": "^7.12.13",
-    "@babel/preset-env": "^7.12.13",
+    "@babel/preset-env": "^7.13.5",
     "@babel/preset-flow": "^7.12.13",
-    "@containerlabs/funpack": "^1.21.0",
+    "@containerlabs/funpack": "^1.30.0",
     "babel-plugin-transform-inline-environment-variables": "^0.4.3"
   }
 }

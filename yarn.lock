@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-"@babel/cli@^7.13.0":
+"@babel/cli@^7.13.0", "@babel/cli@^7.13.10":
   version "7.13.10"
   resolved "https://registry.yarnpkg.com/@babel/cli/-/cli-7.13.10.tgz#3a9254cbe806639c8ca4ebd49ebe54b4267b88c9"
   integrity sha512-lYSBC7B4B9hJ7sv0Ojx1BrGhuzCoOIYfLjd+Xpd4rOzdS+a47yi8voV8vFkfjlZR1N5qZO7ixOCbobUdT304PQ==
@@ -31,7 +31,7 @@
   resolved "https://registry.yarnpkg.com/@babel/compat-data/-/compat-data-7.13.8.tgz#5b783b9808f15cef71547f1b691f34f8ff6003a6"
   integrity sha512-EaI33z19T4qN3xLXsGf48M2cDqa6ei9tPZlfLdb2HC+e/cFtREiRd8hdSqDbwdLB0/+gLwqJmCYASH0z2bUdog==
 
-"@babel/core@^7.13.8":
+"@babel/core@^7.13.10", "@babel/core@^7.13.8":
   version "7.13.10"
   resolved "https://registry.yarnpkg.com/@babel/core/-/core-7.13.10.tgz#07de050bbd8193fcd8a3c27918c0890613a94559"
   integrity sha512-bfIYcT0BdKeAZrovpMqX2Mx5NrgAckGbwT982AkdS5GNfn3KMGiprlBAtmBcFZRUmpaufS6WZFP8trvx8ptFDw==
@@ -882,12 +882,12 @@
     to-fast-properties "^2.0.0"
 
 "@containerlabs/funpack@^1.31.0":
-  version "1.33.0"
-  resolved "https://registry.yarnpkg.com/@containerlabs/funpack/-/funpack-1.33.0.tgz#af80756bcd714b1d861ca956d496187aa831c9ee"
-  integrity sha512-brko3KehQlFdVrbQiFFUndNHmoaekVkC/F0b/AcJVcAYX1Gi2QEGtmfV7TIHpZC1ozYWrH6MVBIMyq4vpiMjrA==
+  version "1.34.0"
+  resolved "https://registry.yarnpkg.com/@containerlabs/funpack/-/funpack-1.34.0.tgz#5f6963bc864b098182306a1986be9b1698057ed3"
+  integrity sha512-3qKZKiP0n/CRcVS8ShWhPjkTa/R/xHVx2n3UbXaTguC7Xp9wOJuWodeH6w6oYH2KNiLigL+EjqWSrqX0oUfTkw==
   dependencies:
-    "@babel/cli" "^7.13.0"
-    "@babel/core" "^7.13.8"
+    "@babel/cli" "^7.13.10"
+    "@babel/core" "^7.13.10"
     core-js "^3.9.1"
     rimraf "^3.0.2"
 

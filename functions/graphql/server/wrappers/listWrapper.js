@@ -1,14 +1,16 @@
 "use strict";
 
-require("core-js/modules/es.array.concat");
-
-require("core-js/modules/es.array.reverse");
+require("core-js/modules/es.object.define-property.js");
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.childListWrapper = childListWrapper;
 exports["default"] = void 0;
+
+require("core-js/modules/es.array.reverse.js");
+
+require("core-js/modules/es.array.concat.js");
 
 var _lodash = _interopRequireDefault(require("lodash"));
 
